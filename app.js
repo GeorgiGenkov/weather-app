@@ -17,9 +17,9 @@ async function checkWeather(city){
     if(response.status == 404){
         const message = `An error has occured: ${response.status}`;
         cityField.textContent = "Unknown city name";
-        temperature.textContent = "?°c";
-        humidity.textContent = "? %";
-        windSpeed.textContent = "? km/h";
+        temperature.textContent = "°c";
+        humidity.textContent = "%";
+        windSpeed.textContent = "km/h";
         weatherIcon.src = "./img/Clear.png";
         
         throw new Error(message);
