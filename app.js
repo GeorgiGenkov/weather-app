@@ -16,7 +16,7 @@ async function checkWeather(city){
 
     if(response.status == 404){
         const message = `An error has occured: ${response.status}`;
-        cityField.textContent = "Unknown city name";
+        cityField.textContent = "City name not found";
         temperature.textContent = "°c";
         humidity.textContent = "%";
         windSpeed.textContent = "km/h";
