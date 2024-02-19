@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=".\style.css">
-    <link rel="icon" href="./img/clear.png">
+    <link rel="icon" href=".\img\Clear.png">
     <title>Weather App</title>
 </head>
 
 <body>
     <div class="card">
+
+        <!-- Search bar -->
         <div class="search">
-            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <input type="text" placeholder="Enter a city name" spellcheck="false">
             <button> <img src="./img/search.png"> </button>
         </div>
 
+        <!-- Weather details section -->
         <div class="weather">
             <img src="./img/Clear.png" class="weatherIcon">
             <h1 class="temp">°c</h1>
@@ -36,6 +39,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- Error details section -->
+        <div class="error-msg">
+            <h2> City name not found </h2>
         </div>
     </div>
 

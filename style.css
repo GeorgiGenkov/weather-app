@@ -12,7 +12,8 @@ body{
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    background: linear-gradient(135deg, #03C04A, #5DBB63);
+    /*background: linear-gradient(135deg, #00feba, #5b548a);*/
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -93,4 +94,16 @@ body{
 .humidity, .wind{
     font-size: 25px;
     margin-top: -6px;
+}
+
+.weather {
+    display: none;
+}
+
+.error-msg {
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 30px;
+
+    display: none;
 }
